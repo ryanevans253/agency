@@ -12,6 +12,10 @@ export default function Hero() {
         <Menu1 />
         <Menu2 />
       </div>
+      <h1 className="redefine">
+        Redefine what's
+        <br /> possible
+      </h1>
     </div>
   );
 }
