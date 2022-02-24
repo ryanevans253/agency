@@ -8,8 +8,10 @@ export default function Hero() {
       <video muted loop autoPlay className="heroVideo">
         <source src={video} type="video/mp4" />
       </video>
-      <Menu1 />
-      <Menu2 />
+      <div>
+        <Menu1 />
+        <Menu2 />
+      </div>
     </div>
   );
 }

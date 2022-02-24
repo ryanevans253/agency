@@ -24,7 +24,7 @@ button:hover {
 }
 
 .topMenu {
-  margin: 0.5% 7% 1.5% 9.2%;
+  margin: 0.5% 7% 0 9.2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,11 +57,19 @@ button:hover {
 }
 
 .secondMenu {
-  width: 100%;
-  gap: 1rem;
-  // text-decoration: none;
-  // font-weight: 800;
-  // justify-content: end;
+  display: flex;
+  padding-right: 5.3%;
+  justify-content: right;
+}
+
+.secondMenu a {
+  color: $white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-left: 1.7rem;
+  line-height: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }
 
 .heroVideo {

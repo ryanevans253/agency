@@ -1,6 +1,6 @@
 export default function Menu2() {
   return (
-    <div className="secondMenu">
+    <div className={`topMenu secondMenu right`}>
       <a href="#">what we do</a>
       <a href="#">who we are</a>
       <a href="#">insights</a>
