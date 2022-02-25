@@ -5,17 +5,21 @@ import video from "./nature.mp4";
 export default function Hero() {
   return (
     <div>
-      <video muted loop autoPlay className="heroVideo">
+      <video muted loop autoPlay className={`heroVideo`}>
         <source src={video} type="video/mp4" />
       </video>
-      <div>
+      {/* <div className="hero">
+        <div> */}
+      <div className="hero">
         <Menu1 />
         <Menu2 />
+        {/* </div> */}
+        <h1 className="redefine">
+          Redefine what's
+          <br /> possible
+        </h1>
       </div>
-      <h1 className="redefine">
-        Redefine what's
-        <br /> possible
-      </h1>
+      {/* </div> */}
     </div>
   );
 }
